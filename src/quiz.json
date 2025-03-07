@@ -1,6 +1,7 @@
 {
   "characters": {
     "Vi": {
+      "image": "images/vi.jpeg",
       "description": "Vi is a strong, determined fighter known for her raw courage, fierce loyalty, and unwavering sense of justice. Her resilience in the face of adversity makes her a powerful force in a divided world.",
       "gets_along_with": {
         "Caitlyn": 3,
@@ -22,6 +23,7 @@
       }
     },
     "Jinx": {
+      "image": "images/jinx.jpeg",
       "description": "Jinx is an unpredictable, chaotic genius with a troubled past and a rebellious spirit. Her volatile nature belies a deep longing for connection and freedom.",
       "gets_along_with": {
         "Silco": 3,
@@ -255,7 +257,8 @@
   },
   "quiz": [
     {
-      "question": "You and your closest allies are trapped in a collapsing building, with debris blocking the only visible exit. The air is thick with dust, and the sounds of the structure groaning under its weight fill your ears. Time is running out\u2014what do you do?",
+      "question": "You and your closest allies are trapped in a collapsing building, with debris blocking the only visible exit. The air is thick with dust, and the sounds of the structure groaning under its weight fill your ears. Time is running out—what do you do?",
+      "image": "images/q1.jpeg",
       "answers": [
         {
           "text": "With a deep breath, you steel yourself and charge forward, using sheer strength to break through the debris, clearing a path for your allies.",
@@ -292,7 +295,8 @@
       ]
     },
     {
-      "question": "A brilliant but reckless scientist unveils a groundbreaking invention that could revolutionize society\u2014but it also has the potential to cause catastrophic destruction if misused. The city\u2019s leaders are divided on what to do. How do you respond?",
+      "question": "A brilliant but reckless scientist unveils a groundbreaking invention that could revolutionize society—but it also has the potential to cause catastrophic destruction if misused. The city’s leaders are divided on what to do. How do you respond?",
+      "image": "images/q2.jpeg",
       "answers": [
         {
           "text": "You argue for rigorous testing before any public use, ensuring the technology is harnessed responsibly.",
@@ -356,7 +360,7 @@
           }
         },
         {
-          "text": "You leave them be\u2014everyone has to learn to survive on their own.",
+          "text": "You leave them be—everyone has to learn to survive on their own.",
           "weights": {
             "Jinx": 3,
             "Sevika": 2,
@@ -366,7 +370,7 @@
       ]
     },
     {
-      "question": "During a high-stakes negotiation between rival factions, the atmosphere grows tense as neither side is willing to make concessions. If this deal falls apart, it could spark an all-out war. The room is silent as all eyes turn to you\u2014how do you proceed?",
+      "question": "During a high-stakes negotiation between rival factions, the atmosphere grows tense as neither side is willing to make concessions. If this deal falls apart, it could spark an all-out war. The room is silent as all eyes turn to you—how do you proceed?",
       "answers": [
         {
           "text": "You make an impassioned speech, appealing to logic and emotion to bring both sides together.",
@@ -477,7 +481,7 @@
       ]
     },
     {
-      "question": "You\u2019ve just discovered that your closest friend has betrayed you, leaking vital information to your enemies. The damage is done, and you now face a difficult choice\u2014confront them, seek revenge, or let it go. What do you do?",
+      "question": "You’ve just discovered that your closest friend has betrayed you, leaking vital information to your enemies. The damage is done, and you now face a difficult choice—confront them, seek revenge, or let it go. What do you do?",
       "answers": [
         {
           "text": "You confront them directly, demanding answers.",
@@ -588,7 +592,7 @@
       ]
     },
     {
-      "question": "While walking through the city, you witness a crime that could change everything\u2014a secret that, if revealed, could shift the balance of power. Reporting it could put you in danger, but staying silent could mean allowing corruption to thrive. What do you do?",
+      "question": "While walking through the city, you witness a crime that could change everything—a secret that, if revealed, could shift the balance of power. Reporting it could put you in danger, but staying silent could mean allowing corruption to thrive. What do you do?",
       "answers": [
         {
           "text": "You report it immediately, knowing justice must be served.",

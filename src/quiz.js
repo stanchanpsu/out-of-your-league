@@ -41,6 +41,9 @@ function showQuestion(index) {
                 </li>
             `).join('')}
         </ul>
+        ${questionData.image ? `<div class="question-image-container">
+                                    <img src="${questionData.image}" alt="Question ${index + 1} Image" class="question-image">
+                                </div>` : ''}
     `;
 }
 
@@ -70,6 +73,14 @@ function showResults() {
     const character = quizData.characters[mainCharacter[0]];
     const questionContainer = document.getElementById('question-container');
     
+    // Optional character image
+    let characterImageHtml = "";
+    if (character.image) {
+        characterImageHtml = `<div class="character-image-container">
+                                  <img src="${character.image}" alt="${mainCharacter[0]} Image" class="character-image">
+                              </div>`;
+    }
+    
     const getAlliesHtml = Object.entries(character.gets_along_with)
         .map(([char, strength]) => `
             <div class="relationship-item ally">
@@ -89,6 +100,7 @@ function showResults() {
     questionContainer.innerHTML = `
         <div class="results">
             <h1>${mainCharacter[0]}</h1>
+            ${characterImageHtml}
             <div class="top-matches">
                 <p class="match-info">You're also similar to: 
                     <span class="char-name">${secondCharacter[0]}</span> and 

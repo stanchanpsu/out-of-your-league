@@ -77,6 +77,19 @@ h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.question-image-container {
+    text-align: center;
+    margin-top: 20px; /* Added margin on top */
+    margin-bottom: 20px;
+}
+
+.question-image {
+    max-width: 300px; /* Reduced max-width for a smaller image */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .options {
     list-style: none;
     padding: 0;
@@ -229,4 +242,16 @@ h1 {
 .match-info .char-name {
     margin: 0 0.5rem;
     font-weight: bold;
+}
+
+.character-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.character-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
