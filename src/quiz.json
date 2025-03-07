@@ -1,0 +1,628 @@
+{
+  "characters": {
+    "Vi": {
+      "description": "Vi is a strong, determined fighter known for her raw courage, fierce loyalty, and unwavering sense of justice. Her resilience in the face of adversity makes her a powerful force in a divided world.",
+      "gets_along_with": {
+        "Caitlyn": 3,
+        "Vander": 2,
+        "Ekko": 1
+      },
+      "conflicts_with": {
+        "Jinx": 3,
+        "Silco": 2,
+        "Ambessa": 1
+      },
+      "attributes": {
+        "Intelligence": 65,
+        "Strength": 92,
+        "Charisma": 78,
+        "Technology": 45,
+        "Ambition": 75,
+        "Loyalty": 90
+      }
+    },
+    "Jinx": {
+      "description": "Jinx is an unpredictable, chaotic genius with a troubled past and a rebellious spirit. Her volatile nature belies a deep longing for connection and freedom.",
+      "gets_along_with": {
+        "Silco": 3,
+        "Ekko": 2,
+        "Sevika": 1
+      },
+      "conflicts_with": {
+        "Vi": 3,
+        "Caitlyn": 2,
+        "Jayce": 1
+      },
+      "attributes": {
+        "Intelligence": 85,
+        "Strength": 60,
+        "Charisma": 50,
+        "Technology": 95,
+        "Ambition": 82,
+        "Loyalty": 30
+      }
+    },
+    "Caitlyn": {
+      "description": "Caitlyn is a disciplined detective who combines intellect with an unwavering commitment to justice. Her keen sense of duty and fair play earn her respect from allies and adversaries alike.",
+      "gets_along_with": {
+        "Vi": 3,
+        "Jayce": 2,
+        "Heimerdinger": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Sevika": 2,
+        "Jinx": 1
+      },
+      "attributes": {
+        "Intelligence": 88,
+        "Strength": 66,
+        "Charisma": 82,
+        "Technology": 62,
+        "Ambition": 78,
+        "Loyalty": 93
+      }
+    },
+    "Jayce": {
+      "description": "Jayce is an innovative inventor and determined leader whose vision for progress is matched only by his ambition. His technical genius and persuasive charm make him a natural trailblazer.",
+      "gets_along_with": {
+        "Viktor": 3,
+        "Mel": 2,
+        "Caitlyn": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Sevika": 2,
+        "Jinx": 1
+      },
+      "attributes": {
+        "Intelligence": 92,
+        "Strength": 78,
+        "Charisma": 88,
+        "Technology": 97,
+        "Ambition": 93,
+        "Loyalty": 72
+      }
+    },
+    "Viktor": {
+      "description": "Viktor is a visionary scientist whose brilliant mind and obsessive dedication to progress challenge the limits of human potential. His pursuit of innovation leaves a lasting impact on his world.",
+      "gets_along_with": {
+        "Jayce": 3,
+        "Heimerdinger": 2,
+        "Mel": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Jinx": 2,
+        "Sevika": 1
+      },
+      "attributes": {
+        "Intelligence": 98,
+        "Strength": 42,
+        "Charisma": 62,
+        "Technology": 95,
+        "Ambition": 88,
+        "Loyalty": 78
+      }
+    },
+    "Silco": {
+      "description": "Silco is a calculating strategist whose relentless ambition and magnetic presence drive his pursuit of power. His mastery of manipulation and complex relationships define his rule.",
+      "gets_along_with": {
+        "Jinx": 3,
+        "Sevika": 2,
+        "Mel": 1
+      },
+      "conflicts_with": {
+        "Vi": 3,
+        "Caitlyn": 2,
+        "Jayce": 1
+      },
+      "attributes": {
+        "Intelligence": 87,
+        "Strength": 52,
+        "Charisma": 82,
+        "Technology": 48,
+        "Ambition": 97,
+        "Loyalty": 38
+      }
+    },
+    "Ekko": {
+      "description": "Ekko is a resourceful and resilient survivor with a knack for innovation. His creative spirit and dedication to protecting his friends make him a true leader in turbulent times.",
+      "gets_along_with": {
+        "Vi": 3,
+        "Vander": 2,
+        "Heimerdinger": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Sevika": 2,
+        "Jinx": 1
+      },
+      "attributes": {
+        "Intelligence": 82,
+        "Strength": 72,
+        "Charisma": 77,
+        "Technology": 88,
+        "Ambition": 75,
+        "Loyalty": 92
+      }
+    },
+    "Mel": {
+      "description": "Mel is a masterful manipulator and astute politician, blending charm with cunning. Her ability to navigate power structures and forge secret alliances makes her a formidable player in any arena.",
+      "gets_along_with": {
+        "Jayce": 3,
+        "Viktor": 2,
+        "Silco": 1
+      },
+      "conflicts_with": {
+        "Vi": 3,
+        "Ekko": 2,
+        "Vander": 1
+      },
+      "attributes": {
+        "Intelligence": 91,
+        "Strength": 42,
+        "Charisma": 97,
+        "Technology": 55,
+        "Ambition": 92,
+        "Loyalty": 64
+      }
+    },
+    "Vander": {
+      "description": "Vander is a compassionate and protective leader whose commitment to his community is unwavering. His strength and empathy create a solid foundation for those who rely on him.",
+      "gets_along_with": {
+        "Vi": 3,
+        "Ekko": 2,
+        "Caitlyn": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Sevika": 2,
+        "Jinx": 1
+      },
+      "attributes": {
+        "Intelligence": 78,
+        "Strength": 88,
+        "Charisma": 87,
+        "Technology": 42,
+        "Ambition": 65,
+        "Loyalty": 98
+      }
+    },
+    "Sevika": {
+      "description": "Sevika is a relentless enforcer whose determination and physical prowess leave no room for compromise. Her no-nonsense approach and formidable strength define her role in maintaining order.",
+      "gets_along_with": {
+        "Silco": 3,
+        "Jinx": 2,
+        "Mel": 1
+      },
+      "conflicts_with": {
+        "Vi": 3,
+        "Caitlyn": 2,
+        "Vander": 1
+      },
+      "attributes": {
+        "Intelligence": 72,
+        "Strength": 88,
+        "Charisma": 63,
+        "Technology": 67,
+        "Ambition": 78,
+        "Loyalty": 83
+      }
+    },
+    "Heimerdinger": {
+      "description": "Heimerdinger is a venerable scientist whose innovative spirit and wisdom have earned him respect as both a mentor and a pioneer. His contributions to technology and knowledge are timeless.",
+      "gets_along_with": {
+        "Viktor": 3,
+        "Ekko": 2,
+        "Caitlyn": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Jinx": 2,
+        "Sevika": 1
+      },
+      "attributes": {
+        "Intelligence": 100,
+        "Strength": 30,
+        "Charisma": 70,
+        "Technology": 100,
+        "Ambition": 65,
+        "Loyalty": 85
+      }
+    },
+    "Ambessa": {
+      "description": "Ambessa Medarda is a perceptive political operator whose strategic mind and diplomatic finesse shape alliances in a complex world. Her subtle influence and ambition make her a key power player.",
+      "gets_along_with": {
+        "Caitlyn": 3,
+        "Jayce": 2,
+        "Viktor": 1
+      },
+      "conflicts_with": {
+        "Silco": 3,
+        "Jinx": 2,
+        "Ekko": 1
+      },
+      "attributes": {
+        "Intelligence": 93,
+        "Strength": 42,
+        "Charisma": 88,
+        "Technology": 75,
+        "Ambition": 85,
+        "Loyalty": 70
+      }
+    }
+  },
+  "quiz": [
+    {
+      "question": "You and your closest allies are trapped in a collapsing building, with debris blocking the only visible exit. The air is thick with dust, and the sounds of the structure groaning under its weight fill your ears. Time is running out\u2014what do you do?",
+      "answers": [
+        {
+          "text": "With a deep breath, you steel yourself and charge forward, using sheer strength to break through the debris, clearing a path for your allies.",
+          "weights": {
+            "Vi": 3,
+            "Vander": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "You scan the wreckage for weak points and begin carefully disassembling a section, working methodically to create a safe exit.",
+          "weights": {
+            "Viktor": 3,
+            "Heimerdinger": 2,
+            "Ekko": 1
+          }
+        },
+        {
+          "text": "You climb to higher ground, searching for an alternate way out, relying on agility and quick thinking to escape.",
+          "weights": {
+            "Ekko": 3,
+            "Jinx": 2,
+            "Caitlyn": 1
+          }
+        },
+        {
+          "text": "Realizing the odds, you convince the others to work together to reinforce a small safe space, hoping rescuers arrive in time.",
+          "weights": {
+            "Vander": 3,
+            "Jayce": 2,
+            "Caitlyn": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "A brilliant but reckless scientist unveils a groundbreaking invention that could revolutionize society\u2014but it also has the potential to cause catastrophic destruction if misused. The city\u2019s leaders are divided on what to do. How do you respond?",
+      "answers": [
+        {
+          "text": "You argue for rigorous testing before any public use, ensuring the technology is harnessed responsibly.",
+          "weights": {
+            "Jayce": 3,
+            "Caitlyn": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You see the potential for power and secretly work to control the invention for your own ends.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "Understanding the risk, you sabotage the project, ensuring it never reaches the wrong hands.",
+          "weights": {
+            "Vi": 3,
+            "Ekko": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You embrace the danger, believing the invention must be used regardless of the consequences.",
+          "weights": {
+            "Jinx": 3,
+            "Viktor": 2,
+            "Silco": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "While walking home late at night, you hear soft sobs coming from a dark alley. You find a lost child, scared and alone, with no idea where their family is. The streets are dangerous, and dawn is still hours away. What is your next move?",
+      "answers": [
+        {
+          "text": "You pick up the child and take them home, vowing to protect them as your own.",
+          "weights": {
+            "Vander": 3,
+            "Vi": 2,
+            "Ekko": 1
+          }
+        },
+        {
+          "text": "You find a nearby shelter and make sure they are taken in, knowing you're not the best caretaker.",
+          "weights": {
+            "Caitlyn": 3,
+            "Jayce": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You ask them questions, trying to figure out if they might be useful to you before making a decision.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "You leave them be\u2014everyone has to learn to survive on their own.",
+          "weights": {
+            "Jinx": 3,
+            "Sevika": 2,
+            "Viktor": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "During a high-stakes negotiation between rival factions, the atmosphere grows tense as neither side is willing to make concessions. If this deal falls apart, it could spark an all-out war. The room is silent as all eyes turn to you\u2014how do you proceed?",
+      "answers": [
+        {
+          "text": "You make an impassioned speech, appealing to logic and emotion to bring both sides together.",
+          "weights": {
+            "Jayce": 3,
+            "Mel": 2,
+            "Caitlyn": 1
+          }
+        },
+        {
+          "text": "You propose a bold, risky move to force an agreement, knowing some may see it as a gamble.",
+          "weights": {
+            "Ekko": 3,
+            "Jinx": 2,
+            "Vi": 1
+          }
+        },
+        {
+          "text": "You quietly align with one side and use subtle manipulation to turn the tides in their favor.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "You call their bluff and refuse to negotiate further, letting them realize the cost of failure.",
+          "weights": {
+            "Vander": 3,
+            "Caitlyn": 2,
+            "Heimerdinger": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "Exploring an abandoned district, you stumble upon a hidden vault filled with ancient, unknown technology. Some of it looks like it could change the world for the better, but tampering with it could also be highly dangerous. What do you do?",
+      "answers": [
+        {
+          "text": "You study the technology carefully, believing it must be understood before acting.",
+          "weights": {
+            "Viktor": 3,
+            "Heimerdinger": 2,
+            "Jayce": 1
+          }
+        },
+        {
+          "text": "You take what you can carry and leave, knowing it could be useful later.",
+          "weights": {
+            "Jinx": 3,
+            "Ekko": 2,
+            "Vi": 1
+          }
+        },
+        {
+          "text": "You alert the authorities, ensuring it remains safely locked away.",
+          "weights": {
+            "Caitlyn": 3,
+            "Jayce": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You destroy it, believing some things are too dangerous to exist.",
+          "weights": {
+            "Vi": 3,
+            "Ekko": 2,
+            "Sevika": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "Rumors of a growing rebellion against the ruling elite are spreading through the city. Some say the rebels fight for justice, while others claim they are a threat to stability. One night, a rebel leader seeks your aid. How do you respond?",
+      "answers": [
+        {
+          "text": "You join the rebels, believing their cause is just and necessary.",
+          "weights": {
+            "Ekko": 3,
+            "Vi": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You stay neutral, waiting to see how things unfold before making a decision.",
+          "weights": {
+            "Mel": 3,
+            "Jayce": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You work behind the scenes, attempting to influence both sides to your advantage.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "You report them, believing order must be maintained at all costs.",
+          "weights": {
+            "Caitlyn": 3,
+            "Jayce": 2,
+            "Vander": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "You\u2019ve just discovered that your closest friend has betrayed you, leaking vital information to your enemies. The damage is done, and you now face a difficult choice\u2014confront them, seek revenge, or let it go. What do you do?",
+      "answers": [
+        {
+          "text": "You confront them directly, demanding answers.",
+          "weights": {
+            "Vi": 3,
+            "Ekko": 2,
+            "Jayce": 1
+          }
+        },
+        {
+          "text": "You plot revenge, ensuring they regret their betrayal.",
+          "weights": {
+            "Jinx": 3,
+            "Sevika": 2,
+            "Silco": 1
+          }
+        },
+        {
+          "text": "You try to understand their reasons before deciding your next move.",
+          "weights": {
+            "Mel": 3,
+            "Viktor": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You walk away, cutting them out of your life without a word.",
+          "weights": {
+            "Caitlyn": 3,
+            "Vander": 2,
+            "Ekko": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "A powerful underground organization has taken notice of your talents and offers you a place among their ranks. Their resources and influence could elevate you to a position of power, but their methods are morally questionable. Do you accept their offer?",
+      "answers": [
+        {
+          "text": "You accept, knowing power is the only way to make change.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Jinx": 1
+          }
+        },
+        {
+          "text": "You refuse, unwilling to compromise your morals.",
+          "weights": {
+            "Vi": 3,
+            "Caitlyn": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You negotiate, trying to gain power on your own terms.",
+          "weights": {
+            "Mel": 3,
+            "Jayce": 2,
+            "Viktor": 1
+          }
+        },
+        {
+          "text": "You play along but secretly plot their downfall.",
+          "weights": {
+            "Ekko": 3,
+            "Sevika": 2,
+            "Heimerdinger": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "A mysterious figure approaches you, promising untold power and knowledge beyond imagination. However, they warn that accepting their gift will come at a steep personal cost. Do you take the risk, or walk away?",
+      "answers": [
+        {
+          "text": "You take the power, consequences be damned.",
+          "weights": {
+            "Jinx": 3,
+            "Silco": 2,
+            "Viktor": 1
+          }
+        },
+        {
+          "text": "You reject it, knowing such power comes at too high a cost.",
+          "weights": {
+            "Caitlyn": 3,
+            "Vi": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You accept cautiously, setting strict rules for how you'll use it.",
+          "weights": {
+            "Jayce": 3,
+            "Mel": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You trick them into giving you the power without the cost.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Ekko": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "While walking through the city, you witness a crime that could change everything\u2014a secret that, if revealed, could shift the balance of power. Reporting it could put you in danger, but staying silent could mean allowing corruption to thrive. What do you do?",
+      "answers": [
+        {
+          "text": "You report it immediately, knowing justice must be served.",
+          "weights": {
+            "Caitlyn": 3,
+            "Jayce": 2,
+            "Vander": 1
+          }
+        },
+        {
+          "text": "You stay silent, fearing the consequences of speaking up.",
+          "weights": {
+            "Silco": 3,
+            "Mel": 2,
+            "Sevika": 1
+          }
+        },
+        {
+          "text": "You investigate further, ensuring you know the full truth before acting.",
+          "weights": {
+            "Viktor": 3,
+            "Ekko": 2,
+            "Heimerdinger": 1
+          }
+        },
+        {
+          "text": "You use the information as leverage for your own gain.",
+          "weights": {
+            "Mel": 3,
+            "Jinx": 2,
+            "Sevika": 1
+          }
+        }
+      ]
+    }
+  ]
+}
