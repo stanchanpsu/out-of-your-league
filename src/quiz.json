@@ -3,12 +3,12 @@
     "Vi": {
       "image": "images/vi.jpeg",
       "description": "You are a force of nature - determined and resilient with an unwavering moral compass. Your loyalty to those you care about is your greatest strength, and you believe in standing up for what's right, even when it's difficult. You possess remarkable physical and emotional strength, charging headfirst into challenges others would flee from. While your straightforward approach and protective instincts serve you well, you might benefit from occasionally stepping back to consider strategic alternatives before acting. Learning patience and diplomacy could open doors that raw determination alone cannot unlock.",
-      "gets_along_with": {
+      "allies": {
         "Caitlyn": 3,
         "Vander": 2,
         "Jinx": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Ambessa": 3,
         "Silco": 2,
         "Sevika": 1
@@ -32,12 +32,12 @@
     "Jinx": {
       "image": "images/jinx.jpeg",
       "description": "You are brilliantly creative with a mind that works in delightful and unexpected ways. Your unique perspective allows you to see solutions where others see only problems, and your technical genius is matched by few. You embrace chaos as a catalyst for change and find beauty in unpredictability. Your authentic self-expression is refreshing in a world of conformity. However, your tendency toward impulsivity sometimes leads to consequences you didn't anticipate. Building deeper trust in close relationships and finding healthy outlets for your intense emotions could help you channel your exceptional talents more constructively.",
-      "gets_along_with": {
+      "allies": {
         "Silco": 3,
         "Vi": 2,
         "Ekko": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Caitlyn": 3,
         "Jayce": 2,
         "Ambessa": 1
@@ -61,12 +61,12 @@
     "Caitlyn": {
       "image": "images/caitlyn.jpeg",
       "description": "You are disciplined and principled with a sharp analytical mind that sees beyond surface appearances. Your sense of justice isn't just philosophical—it's a guiding force in your daily choices. People trust you because your integrity is unquestionable and your dedication inspiring. You excel at methodical problem-solving and bring order to chaotic situations. Though your by-the-book approach usually serves you well, sometimes flexibility and understanding the spirit rather than the letter of the law would help you connect more deeply with those whose experiences differ from yours. Learning to occasionally bend without breaking could expand your effectiveness.",
-      "gets_along_with": {
+      "allies": {
         "Vi": 3,
         "Jayce": 2,
         "Heimerdinger": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Silco": 3,
         "Sevika": 2,
         "Jinx": 1
@@ -90,12 +90,12 @@
     "Jayce": {
       "image": "images/jayce.jpeg",
       "description": "You are an innovative visionary with the rare ability to both dream big and execute on those dreams. Your natural charisma draws others to your vision, and your technical brilliance makes the impossible seem achievable. You thrive in leadership roles and excel at inspiring others to reach beyond their perceived limitations. Your ambition serves as a catalyst for progress and positive change. Be mindful, however, of the human cost of rapid advancement—not everyone can keep pace with your accelerated timeline. Your journey will be more fulfilling if you remember that bringing others along, rather than leaving them behind, creates more sustainable success in the long run.",
-      "gets_along_with": {
+      "allies": {
         "Viktor": 3,
         "Mel": 2,
         "Caitlyn": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Jinx": 3,
         "Silco": 2,
         "Sevika": 1
@@ -119,12 +119,12 @@
     "Viktor": {
       "image": "images/viktor.jpeg",
       "description": "You possess extraordinary intellectual depth and a perspective that extends far beyond conventional thinking. Your dedication to improvement—of yourself, technology, and humanity—is unmatched, driving you to achieve what others consider impossible. You see potential where others see limitations and approach problems with elegant, efficient solutions. Your quiet intensity and perseverance are powerful forces for change. Be wary, however, of the tendency to isolate yourself in pursuit of your vision. The connections you form with others don't just enrich your life—they provide essential perspective that can prevent brilliant ideas from having unintended consequences.",
-      "gets_along_with": {
+      "allies": {
         "Jayce": 3,
         "Heimerdinger": 2,
         "Mel": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Silco": 3,
         "Jinx": 2,
         "Sevika": 1
@@ -148,12 +148,12 @@
     "Silco": {
       "image": "images/silco.jpeg",
       "description": "You are exceptionally strategic with remarkable foresight and an unmatched ability to assess and leverage power dynamics. Your ambition isn't merely personal—it's transformative, aimed at reshaping systems you find unjust. You inspire fierce loyalty in those who recognize your vision, and your determination in the face of opposition is admirable. Your charisma lies in your authenticity; you make no apologies for who you are or what you want. Consider, however, that the most enduring legacies are built not just on strength but also compassion. The vulnerability you keep hidden isn't weakness—it's potentially your greatest source of wisdom and connection.",
-      "gets_along_with": {
+      "allies": {
         "Jinx": 3,
         "Sevika": 2,
         "Vander": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Vi": 3,
         "Caitlyn": 2,
         "Jayce": 1
@@ -177,12 +177,12 @@
     "Ekko": {
       "image": "images/ekko.jpeg",
       "description": "You are resourceful and brilliantly adaptive with an innate ability to make the most of any situation. Your innovative thinking allows you to create solutions that others couldn't imagine, and your unwavering loyalty to your community drives everything you do. You lead not through force but through inspiration, showing others what's possible when determination meets creativity. Your optimism in the face of adversity serves as a beacon for those around you. Be mindful, however, of taking too much responsibility onto your young shoulders. Remember that asking for help isn't a sign of weakness but of wisdom, and that sometimes the most revolutionary act is allowing yourself moments of rest and joy.",
-      "gets_along_with": {
+      "allies": {
         "Vi": 3,
         "Jinx": 2,
         "Heimerdinger": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Silco": 3,
         "Sevika": 2,
         "Viktor": 1
@@ -206,12 +206,12 @@
     "Mel": {
       "image": "images/mel.jpeg",
       "description": "You are exceptionally perceptive with an unparalleled ability to read people and situations. Your diplomatic finesse allows you to navigate complex social landscapes with grace, achieving your goals while making others feel valued. Your vision extends beyond immediate gains to long-term strategy, positioning you as a masterful architect of change. Your charm isn't superficial—it's a carefully honed instrument that opens doors and builds bridges. Remember, however, that authentic connection requires occasional vulnerability. The armor of perfection you've crafted serves you well in political arenas but may prevent those who truly care from knowing the real you. Your greatest influence might come not from perfect calculation, but from moments of genuine humanity.",
-      "gets_along_with": {
+      "allies": {
         "Jayce": 3,
         "Viktor": 2,
         "Caitlyn": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Silco": 3,
         "Ambessa": 2,
         "Sevika": 1
@@ -235,12 +235,12 @@
     "Vander": {
       "image": "images/vander.jpeg",
       "description": "You are a natural protector with the rare ability to inspire both respect and affection in equal measure. Your strength isn't just physical—it's found in your moral courage and willingness to stand for what's right, even at personal cost. You create safety in chaos and stability in uncertainty, making you the foundation others build their lives upon. Your wisdom comes from hard-won experience rather than theory, giving your guidance authentic weight. Be careful, though, of taking on everyone else's burdens while neglecting your own needs. The protective walls you've built around your heart might keep out pain, but they also prevent healing. Sometimes the greatest act of leadership is showing vulnerability and accepting help.",
-      "gets_along_with": {
+      "allies": {
         "Vi": 3,
         "Jinx": 2,
         "Silco": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Ambessa": 3,
         "Sevika": 2
       },
@@ -263,11 +263,11 @@
     "Sevika": {
       "image": "images/sevika.jpeg",
       "description": "You are unwavering and resolute with a straightforward approach to life that cuts through pretense and deception. Your loyalty, once earned, is absolute, and your practical nature allows you to execute complex plans with precision. You thrive in environments that demand decisive action and clear thinking under pressure. Your resilience in the face of setbacks is remarkable—where others might break, you adapt and grow stronger. Consider, however, that flexibility isn't always weakness and compromise isn't always surrender. Your greatest challenge may be recognizing when loyalty deserves questioning and when tradition deserves challenge. True strength sometimes lies in knowing when to bend rather than stand immovable.",
-      "gets_along_with": {
+      "allies": {
         "Silco": 3,
         "Jinx": 2
       },
-      "conflicts_with": {
+      "rivals": {
         "Vi": 3,
         "Caitlyn": 2
       },
@@ -290,12 +290,12 @@
     "Heimerdinger": {
       "image": "images/heimerdinger.jpeg",
       "description": "You are intellectually brilliant with a mind that spans centuries of knowledge while remaining open to new discoveries. Your perspective transcends immediate concerns to consider long-term implications, making you a valuable guide in uncertain times. Your enthusiasm for learning and sharing wisdom creates an infectious energy that inspires those around you. You see patterns and connections others miss, finding elegant solutions to seemingly impossible problems. Be mindful, however, that theory without application can become detached from reality. Your greatest wisdom might come from stepping away from comfortable abstractions to engage with the messy, imperfect world of human experience. Sometimes the most profound insights come not from observation but participation.",
-      "gets_along_with": {
+      "allies": {
         "Ekko": 3,
         "Jayce": 2,
         "Viktor": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Silco": 3,
         "Jinx": 2,
         "Sevika": 1
@@ -319,12 +319,12 @@
     "Ambessa": {
       "image": "images/ambessa.jpeg",
       "description": "You are strategically brilliant with a mind that anticipates moves well beyond the current game. Your commanding presence naturally draws others into your orbit, creating influence without obvious effort. You understand power—not just how to acquire it, but how to wield it effectively to achieve complex goals. Your ability to remain composed under pressure allows you to capitalize on opportunities others miss in the chaos of the moment. Remember, however, that not everything of value can be controlled or possessed. Your calculations, while impressive, sometimes fail to account for the unpredictable power of human connection and emotion. The legacy you build will depend not just on what you achieve, but who you become in the process of achievement.",
-      "gets_along_with": {
+      "allies": {
         "Caitlyn": 3,
         "Jayce": 2,
         "Viktor": 1
       },
-      "conflicts_with": {
+      "rivals": {
         "Vi": 3,
         "Jinx": 2,
         "Ekko": 1
@@ -358,7 +358,7 @@
             "Vander": 2,
             "Sevika": 3,
             "Jayce": 1,
-            "Ambessa": 1
+            "Ambessa": 2
           }
         },
         {
@@ -389,7 +389,7 @@
             "Caitlyn": 2,
             "Mel": 2,
             "Silco": 1,
-            "Ambessa": 2
+            "Ambessa": 1
           }
         }
       ]
@@ -404,18 +404,17 @@
             "Jayce": 3,
             "Caitlyn": 3,
             "Heimerdinger": 2,
-            "Viktor": 1,
-            "Ambessa": 2
+            "Viktor": 1
           }
         },
         {
           "text": "You see the potential for power and secretly work to control the invention for your own ends.",
           "weights": {
             "Silco": 3,
-            "Mel": 3,
+            "Mel": 2,
             "Sevika": 2,
             "Jinx": 1,
-            "Ambessa": 1
+            "Ambessa": 3
           }
         },
         {
@@ -462,7 +461,7 @@
             "Jayce": 2,
             "Heimerdinger": 2,
             "Mel": 2,
-            "Ambessa": 2,
+            "Ambessa": 1,
             "Silco": 2
           }
         },
@@ -472,7 +471,7 @@
             "Silco": 3,
             "Mel": 3,
             "Sevika": 2,
-            "Ambessa": 1,
+            "Ambessa": 2,
             "Viktor": 1
           }
         },
@@ -499,7 +498,8 @@
             "Mel": 3,
             "Caitlyn": 2,
             "Vander": 1,
-            "Heimerdinger": 1
+            "Heimerdinger": 1,
+            "Ambessa": 2
           }
         },
         {
@@ -519,7 +519,7 @@
             "Mel": 3,
             "Sevika": 2,
             "Ambessa": 1,
-            "Viktor": 1
+            "Viktor": 2
           }
         },
         {
@@ -545,6 +545,7 @@
     },
     {
       "question": "Exploring an abandoned district, you stumble upon a hidden vault filled with ancient, unknown technology. Some of it looks like it could change the world for the better, but tampering with it could also be highly dangerous. What do you do?",
+      "image": "images/q5.jpeg",
       "answers": [
         {
           "text": "You study the technology carefully, believing it must be understood before acting.",
@@ -563,7 +564,8 @@
             "Ekko": 3,
             "Vi": 2,
             "Silco": 1,
-            "Sevika": 1
+            "Sevika": 1,
+            "Ambessa": 2
           }
         },
         {
@@ -572,8 +574,7 @@
             "Caitlyn": 3,
             "Jayce": 2,
             "Vander": 2,
-            "Heimerdinger": 2,
-            "Ambessa": 1
+            "Heimerdinger": 2
           }
         },
         {
@@ -599,6 +600,7 @@
     },
     {
       "question": "Rumors of a growing rebellion against the ruling elite are spreading through the city. Some say the rebels fight for justice, while others claim they are a threat to stability. One night, a rebel leader seeks your aid. How do you respond?",
+      "image": "images/q6.jpeg",
       "answers": [
         {
           "text": "You join the rebels, believing their cause is just and necessary.",
@@ -644,6 +646,7 @@
     },
     {
       "question": "You've just discovered that your closest friend has betrayed you, leaking vital information to your enemies. The damage is done, and you now face a difficult choice—confront them, seek revenge, or let it go. What do you do?",
+      "image": "images/q7.jpeg",
       "answers": [
         {
           "text": "You confront them directly, demanding answers.",
@@ -689,6 +692,7 @@
     },
     {
       "question": "A powerful underground organization has taken notice of your talents and offers you a place among their ranks. Their resources and influence could elevate you to a position of power, but their methods are morally questionable. Do you accept their offer?",
+      "image": "images/q8.jpeg",
       "answers": [
         {
           "text": "You accept, knowing power is the only way to make change.",
@@ -743,6 +747,7 @@
     },
     {
       "question": "A mysterious figure approaches you, promising untold power and knowledge beyond imagination. However, they warn that accepting their gift will come at a steep personal cost. Do you take the risk, or walk away?",
+      "image": "images/q9.jpeg",
       "answers": [
         {
           "text": "You take the power, consequences be damned.",
@@ -790,6 +795,7 @@
     },
     {
       "question": "While walking through the city, you witness a crime that could change everything—a secret that, if revealed, could shift the balance of power. Reporting it could put you in danger, but staying silent could mean allowing corruption to thrive. What do you do?",
+      "image": "images/q10.jpeg",
       "answers": [
         {
           "text": "You report it immediately, knowing justice must be served.",

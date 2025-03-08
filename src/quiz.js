@@ -13,9 +13,36 @@ function startQuiz() {
         .then(response => response.json())
         .then(data => {
             quizData = data;
-            initializeScores();
-            showQuestion(0);
+            preloadImages(data).then(() => {
+                initializeScores();
+                showQuestion(0);
+            });
         });
+}
+
+function preloadImages(data) {
+    const imageUrls = [];
+    data.quiz.forEach(question => {
+        if (question.image) {
+            imageUrls.push(question.image);
+        }
+    });
+    Object.values(data.characters).forEach(character => {
+        if (character.image) {
+            imageUrls.push(character.image);
+        }
+    });
+
+    const promises = imageUrls.map(url => {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.src = url;
+            img.onload = resolve;
+            img.onerror = reject;
+        });
+    });
+
+    return Promise.all(promises);
 }
 
 function initializeScores() {
@@ -83,7 +110,7 @@ function showResults() {
                               </div>`;
     }
     
-    const getAlliesHtml = Object.entries(character.gets_along_with)
+    const getAlliesHtml = Object.entries(character.allies)
         .map(([char, strength]) => `
             <div class="relationship-item ally">
                 <span class="char-name">${char}</span>
@@ -91,7 +118,7 @@ function showResults() {
             </div>
         `).join('');
 
-    const getRivalsHtml = Object.entries(character.conflicts_with)
+    const getRivalsHtml = Object.entries(character.rivals)
         .map(([char, strength]) => `
             <div class="relationship-item rival">
                 <span class="char-name">${char}</span>
