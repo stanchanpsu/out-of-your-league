@@ -59,6 +59,7 @@
       ]
     },
     "Caitlyn": {
+      "image": "images/caitlyn.jpeg",
       "description": "You are disciplined and principled with a sharp analytical mind that sees beyond surface appearances. Your sense of justice isn't just philosophical—it's a guiding force in your daily choices. People trust you because your integrity is unquestionable and your dedication inspiring. You excel at methodical problem-solving and bring order to chaotic situations. Though your by-the-book approach usually serves you well, sometimes flexibility and understanding the spirit rather than the letter of the law would help you connect more deeply with those whose experiences differ from yours. Learning to occasionally bend without breaking could expand your effectiveness.",
       "gets_along_with": {
         "Vi": 3,
@@ -87,6 +88,7 @@
       ]
     },
     "Jayce": {
+      "image": "images/jayce.jpeg",
       "description": "You are an innovative visionary with the rare ability to both dream big and execute on those dreams. Your natural charisma draws others to your vision, and your technical brilliance makes the impossible seem achievable. You thrive in leadership roles and excel at inspiring others to reach beyond their perceived limitations. Your ambition serves as a catalyst for progress and positive change. Be mindful, however, of the human cost of rapid advancement—not everyone can keep pace with your accelerated timeline. Your journey will be more fulfilling if you remember that bringing others along, rather than leaving them behind, creates more sustainable success in the long run.",
       "gets_along_with": {
         "Viktor": 3,
@@ -115,6 +117,7 @@
       ]
     },
     "Viktor": {
+      "image": "images/viktor.jpeg",
       "description": "You possess extraordinary intellectual depth and a perspective that extends far beyond conventional thinking. Your dedication to improvement—of yourself, technology, and humanity—is unmatched, driving you to achieve what others consider impossible. You see potential where others see limitations and approach problems with elegant, efficient solutions. Your quiet intensity and perseverance are powerful forces for change. Be wary, however, of the tendency to isolate yourself in pursuit of your vision. The connections you form with others don't just enrich your life—they provide essential perspective that can prevent brilliant ideas from having unintended consequences.",
       "gets_along_with": {
         "Jayce": 3,
@@ -143,6 +146,7 @@
       ]
     },
     "Silco": {
+      "image": "images/silco.jpeg",
       "description": "You are exceptionally strategic with remarkable foresight and an unmatched ability to assess and leverage power dynamics. Your ambition isn't merely personal—it's transformative, aimed at reshaping systems you find unjust. You inspire fierce loyalty in those who recognize your vision, and your determination in the face of opposition is admirable. Your charisma lies in your authenticity; you make no apologies for who you are or what you want. Consider, however, that the most enduring legacies are built not just on strength but also compassion. The vulnerability you keep hidden isn't weakness—it's potentially your greatest source of wisdom and connection.",
       "gets_along_with": {
         "Jinx": 3,
@@ -352,7 +356,7 @@
           "weights": {
             "Vi": 3,
             "Vander": 2,
-            "Sevika": 2,
+            "Sevika": 3,
             "Jayce": 1,
             "Ambessa": 1
           }
@@ -384,7 +388,8 @@
             "Jayce": 2,
             "Caitlyn": 2,
             "Mel": 2,
-            "Silco": 1
+            "Silco": 1,
+            "Ambessa": 2
           }
         }
       ]
@@ -400,7 +405,7 @@
             "Caitlyn": 3,
             "Heimerdinger": 2,
             "Viktor": 1,
-            "Ambessa": 1
+            "Ambessa": 2
           }
         },
         {
@@ -437,15 +442,17 @@
     },
     {
       "question": "While walking home late at night, you hear soft sobs coming from a dark alley. You find a lost child, scared and alone, with no idea where their family is. The streets are dangerous, and dawn is still hours away. What is your next move?",
+      "image": "images/q3.jpeg",
       "answers": [
         {
           "text": "You pick up the child and take them home, vowing to protect them as your own.",
           "weights": {
             "Vander": 3,
-            "Vi": 3,
+            "Vi": 2,
             "Ekko": 2,
             "Caitlyn": 1,
-            "Heimerdinger": 1
+            "Heimerdinger": 1,
+            "Silco": 3
           }
         },
         {
@@ -455,7 +462,8 @@
             "Jayce": 2,
             "Heimerdinger": 2,
             "Mel": 2,
-            "Ambessa": 1
+            "Ambessa": 2,
+            "Silco": 2
           }
         },
         {
@@ -482,6 +490,7 @@
     },
     {
       "question": "During a high-stakes negotiation between rival factions, the atmosphere grows tense as neither side is willing to make concessions. If this deal falls apart, it could spark an all-out war. The room is silent as all eyes turn to you—how do you proceed?",
+      "image": "images/q4.jpeg",
       "answers": [
         {
           "text": "You make an impassioned speech, appealing to logic and emotion to bring both sides together.",
@@ -521,6 +530,15 @@
             "Heimerdinger": 2,
             "Vi": 2,
             "Ambessa": 1
+          }
+        },
+        {
+          "text": "You emphasize safety and caution, warning of consequences should either side escalate matters further.",
+          "weights": {
+            "Heimerdinger": 3,
+            "Vander": 3,
+            "Caitlyn": 1,
+            "Sevika": 1
           }
         }
       ]
@@ -567,6 +585,15 @@
             "Vander": 2,
             "Ambessa": 1
           }
+        },
+        {
+          "text": "You secure the area and methodically catalog everything, ensuring nothing falls into the wrong hands.",
+          "weights": {
+            "Heimerdinger": 3,
+            "Sevika": 2,
+            "Caitlyn": 1,
+            "Mel": 1
+          }
         }
       ]
     },
@@ -578,7 +605,7 @@
           "weights": {
             "Ekko": 3,
             "Vi": 3,
-            "Vander": 2,
+            "Vander": 3,
             "Jinx": 1,
             "Viktor": 1
           }
@@ -599,7 +626,7 @@
             "Silco": 3,
             "Mel": 3,
             "Sevika": 2,
-            "Ambessa": 1,
+            "Ambessa": 3,
             "Jinx": 1
           }
         },
@@ -625,7 +652,7 @@
             "Ekko": 2,
             "Jayce": 2,
             "Vander": 2,
-            "Sevika": 1
+            "Sevika": 3
           }
         },
         {
@@ -645,7 +672,7 @@
             "Viktor": 3,
             "Heimerdinger": 2,
             "Caitlyn": 1,
-            "Vander": 1
+            "Vander": 3
           }
         },
         {
@@ -702,6 +729,15 @@
             "Vi": 2,
             "Jinx": 1
           }
+        },
+        {
+          "text": "You infiltrate them to learn their methods before deciding your path forward.",
+          "weights": {
+            "Ambessa": 3,
+            "Sevika": 2,
+            "Caitlyn": 1,
+            "Ekko": 1
+          }
         }
       ]
     },
@@ -725,7 +761,7 @@
             "Vi": 3,
             "Vander": 2,
             "Ekko": 1,
-            "Heimerdinger": 1
+            "Heimerdinger": 3
           }
         },
         {
@@ -735,7 +771,8 @@
             "Mel": 2,
             "Heimerdinger": 2,
             "Viktor": 2,
-            "Ambessa": 1
+            "Ambessa": 1,
+            "Sevika": 2
           }
         },
         {
@@ -745,7 +782,8 @@
             "Mel": 3,
             "Ekko": 2,
             "Jinx": 1,
-            "Sevika": 1
+            "Sevika": 1,
+            "Ambessa": 2
           }
         }
       ]
@@ -791,6 +829,17 @@
             "Sevika": 2,
             "Silco": 2,
             "Ambessa": 1
+          }
+        },
+        {
+          "text": "You confront the perpetrators directly, establishing yourself as someone who won't tolerate such actions.",
+          "weights": {
+            "Sevika": 2,
+            "Vander": 3,
+            "Ambessa": 3,
+            "Caitlyn": 2,
+            "Vi": 1,
+            "Ekko": 1
           }
         }
       ]

@@ -5,7 +5,9 @@ let currentQuestionIndex = 0;
 
 function startQuiz() {
     document.getElementById('welcome-screen').style.display = 'none';
-    document.getElementById('question-container').style.display = 'block';
+    const questionContainer = document.getElementById('question-container');
+    questionContainer.style.display = 'block';
+    questionContainer.innerHTML = '<div class="loading">Loading...</div>'; // Add loading indicator
     // Load quiz data when starting
     fetch('quiz.json')
         .then(response => response.json())
@@ -115,15 +117,21 @@ function showResults() {
             </div>
             <div class="relationships">
                 <div class="allies">
-                    <h3>Gets Along With</h3>
+                    <h3>Allies</h3>
                     ${getAlliesHtml}
                 </div>
                 <div class="rivals">
-                    <h3>Not So Much</h3>
+                    <h3>Rivals</h3>
                     ${getRivalsHtml}
                 </div>
             </div>
             <button class="start-btn" onclick="location.reload()">Discover Another Path</button>
+            <p class="disclaimer">Images are copyright of Riot Games. Usage of the images follow the guidelines of Riot Game's <a href="https://www.riotgames.com/en/legal" target="_blank">Legal Jibber Jabber</a>.</p>
+            <div class="linkedin-icon">
+                <a href="https://linkedin.com/in/chanstan" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
         </div>
     `;
 
