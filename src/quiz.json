@@ -359,6 +359,14 @@
             "Sevika": 3,
             "Jayce": 1,
             "Ambessa": 2
+          },
+          "attributes": {
+            "Intelligence": 3,
+            "Strength": 9,
+            "Charisma": 5,
+            "Technology": 1,
+            "Ambition": 4,
+            "Loyalty": 7
           }
         },
         {
@@ -369,6 +377,14 @@
             "Ekko": 2,
             "Jayce": 1,
             "Caitlyn": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 3,
+            "Charisma": 4,
+            "Technology": 6,
+            "Ambition": 5,
+            "Loyalty": 6
           }
         },
         {
@@ -379,6 +395,14 @@
             "Caitlyn": 2,
             "Vi": 1,
             "Mel": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 5,
+            "Charisma": 6,
+            "Technology": 4,
+            "Ambition": 6,
+            "Loyalty": 5
           }
         },
         {
@@ -390,6 +414,14 @@
             "Mel": 2,
             "Silco": 1,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 5,
+            "Charisma": 7,
+            "Technology": 2,
+            "Ambition": 4,
+            "Loyalty": 8
           }
         }
       ]
@@ -405,6 +437,14 @@
             "Caitlyn": 3,
             "Heimerdinger": 2,
             "Viktor": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 3,
+            "Charisma": 7,
+            "Technology": 7,
+            "Ambition": 6,
+            "Loyalty": 7
           }
         },
         {
@@ -415,6 +455,14 @@
             "Sevika": 2,
             "Jinx": 1,
             "Ambessa": 3
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 5,
+            "Ambition": 9,
+            "Loyalty": 2
           }
         },
         {
@@ -425,6 +473,14 @@
             "Vander": 2,
             "Sevika": 1,
             "Caitlyn": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 7,
+            "Charisma": 5,
+            "Technology": 4,
+            "Ambition": 6,
+            "Loyalty": 8
           }
         },
         {
@@ -435,6 +491,14 @@
             "Silco": 2,
             "Jayce": 1,
             "Ekko": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 5,
+            "Technology": 8,
+            "Ambition": 8,
+            "Loyalty": 3
           }
         }
       ]
@@ -452,6 +516,14 @@
             "Caitlyn": 1,
             "Heimerdinger": 1,
             "Silco": 3
+          },
+          "attributes": {
+            "Intelligence": 4,
+            "Strength": 6,
+            "Charisma": 7,
+            "Technology": 2,
+            "Ambition": 5,
+            "Loyalty": 9
           }
         },
         {
@@ -463,6 +535,14 @@
             "Mel": 2,
             "Ambessa": 1,
             "Silco": 2
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 4,
+            "Loyalty": 7
           }
         },
         {
@@ -473,6 +553,14 @@
             "Sevika": 2,
             "Ambessa": 2,
             "Viktor": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 8,
+            "Loyalty": 3
           }
         },
         {
@@ -483,6 +571,14 @@
             "Viktor": 2,
             "Silco": 1,
             "Jayce": 1
+          },
+          "attributes": {
+            "Intelligence": 5,
+            "Strength": 5,
+            "Charisma": 3,
+            "Technology": 2,
+            "Ambition": 7,
+            "Loyalty": 1
           }
         }
       ]
@@ -500,6 +596,14 @@
             "Vander": 1,
             "Heimerdinger": 1,
             "Ambessa": 2
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 3,
+            "Charisma": 9,
+            "Technology": 2,
+            "Ambition": 6,
+            "Loyalty": 6
           }
         },
         {
@@ -510,6 +614,14 @@
             "Vi": 2,
             "Viktor": 1,
             "Jayce": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 6,
+            "Charisma": 7,
+            "Technology": 4,
+            "Ambition": 8,
+            "Loyalty": 4
           }
         },
         {
@@ -520,6 +632,14 @@
             "Sevika": 2,
             "Ambessa": 1,
             "Viktor": 2
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 7,
+            "Technology": 3,
+            "Ambition": 9,
+            "Loyalty": 2
           }
         },
         {
@@ -530,6 +650,14 @@
             "Heimerdinger": 2,
             "Vi": 2,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 6,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 7,
+            "Loyalty": 6
           }
         },
         {
@@ -539,6 +667,14 @@
             "Vander": 3,
             "Caitlyn": 1,
             "Sevika": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 7,
+            "Technology": 4,
+            "Ambition": 5,
+            "Loyalty": 8
           }
         }
       ]
@@ -555,6 +691,14 @@
             "Jayce": 2,
             "Ekko": 1,
             "Mel": 1
+          },
+          "attributes": {
+            "Intelligence": 9,
+            "Strength": 3,
+            "Charisma": 5,
+            "Technology": 8,
+            "Ambition": 6,
+            "Loyalty": 6
           }
         },
         {
@@ -566,6 +710,14 @@
             "Silco": 1,
             "Sevika": 1,
             "Ambessa": 2
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 6,
+            "Charisma": 6,
+            "Technology": 4,
+            "Ambition": 8,
+            "Loyalty": 3
           }
         },
         {
@@ -575,6 +727,14 @@
             "Jayce": 2,
             "Vander": 2,
             "Heimerdinger": 2
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 5,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 5,
+            "Loyalty": 8
           }
         },
         {
@@ -585,6 +745,14 @@
             "Sevika": 2,
             "Vander": 2,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 5,
+            "Strength": 7,
+            "Charisma": 4,
+            "Technology": 2,
+            "Ambition": 6,
+            "Loyalty": 7
           }
         },
         {
@@ -594,6 +762,14 @@
             "Sevika": 2,
             "Caitlyn": 1,
             "Mel": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 5,
+            "Technology": 7,
+            "Ambition": 6,
+            "Loyalty": 8
           }
         }
       ]
@@ -610,6 +786,14 @@
             "Vander": 3,
             "Jinx": 1,
             "Viktor": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 7,
+            "Charisma": 7,
+            "Technology": 4,
+            "Ambition": 7,
+            "Loyalty": 9
           }
         },
         {
@@ -620,6 +804,14 @@
             "Heimerdinger": 2,
             "Viktor": 2,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 5,
+            "Loyalty": 5
           }
         },
         {
@@ -630,6 +822,14 @@
             "Sevika": 2,
             "Ambessa": 3,
             "Jinx": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 7,
+            "Technology": 3,
+            "Ambition": 9,
+            "Loyalty": 3
           }
         },
         {
@@ -640,6 +840,14 @@
             "Vander": 2,
             "Ambessa": 2,
             "Heimerdinger": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 5,
+            "Charisma": 5,
+            "Technology": 3,
+            "Ambition": 6,
+            "Loyalty": 8
           }
         }
       ]
@@ -656,6 +864,14 @@
             "Jayce": 2,
             "Vander": 2,
             "Sevika": 3
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 7,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 6,
+            "Loyalty": 5
           }
         },
         {
@@ -666,6 +882,14 @@
             "Silco": 2,
             "Ambessa": 1,
             "Mel": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 6,
+            "Charisma": 5,
+            "Technology": 2,
+            "Ambition": 8,
+            "Loyalty": 1
           }
         },
         {
@@ -676,6 +900,14 @@
             "Heimerdinger": 2,
             "Caitlyn": 1,
             "Vander": 3
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 7,
+            "Technology": 4,
+            "Ambition": 5,
+            "Loyalty": 7
           }
         },
         {
@@ -686,6 +918,14 @@
             "Ekko": 2,
             "Silco": 1,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 5,
+            "Charisma": 3,
+            "Technology": 3,
+            "Ambition": 4,
+            "Loyalty": 2
           }
         }
       ]
@@ -702,6 +942,14 @@
             "Jinx": 2,
             "Viktor": 1,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 5,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 9,
+            "Loyalty": 3
           }
         },
         {
@@ -712,6 +960,14 @@
             "Vander": 2,
             "Ekko": 1,
             "Heimerdinger": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 6,
+            "Charisma": 7,
+            "Technology": 2,
+            "Ambition": 4,
+            "Loyalty": 8
           }
         },
         {
@@ -722,6 +978,14 @@
             "Viktor": 2,
             "Ambessa": 1,
             "Silco": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 8,
+            "Technology": 4,
+            "Ambition": 8,
+            "Loyalty": 5
           }
         },
         {
@@ -732,6 +996,14 @@
             "Heimerdinger": 2,
             "Vi": 2,
             "Jinx": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 6,
+            "Charisma": 5,
+            "Technology": 3,
+            "Ambition": 7,
+            "Loyalty": 4
           }
         },
         {
@@ -741,6 +1013,14 @@
             "Sevika": 2,
             "Caitlyn": 1,
             "Ekko": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 6,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 7,
+            "Loyalty": 6
           }
         }
       ]
@@ -757,6 +1037,14 @@
             "Viktor": 2,
             "Jayce": 1,
             "Sevika": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 5,
+            "Charisma": 5,
+            "Technology": 4,
+            "Ambition": 9,
+            "Loyalty": 3
           }
         },
         {
@@ -767,6 +1055,14 @@
             "Vander": 2,
             "Ekko": 1,
             "Heimerdinger": 3
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 6,
+            "Charisma": 7,
+            "Technology": 3,
+            "Ambition": 4,
+            "Loyalty": 8
           }
         },
         {
@@ -778,6 +1074,14 @@
             "Viktor": 2,
             "Ambessa": 1,
             "Sevika": 2
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 5,
+            "Ambition": 7,
+            "Loyalty": 6
           }
         },
         {
@@ -789,6 +1093,14 @@
             "Jinx": 1,
             "Sevika": 1,
             "Ambessa": 2
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 5,
+            "Charisma": 7,
+            "Technology": 4,
+            "Ambition": 8,
+            "Loyalty": 2
           }
         }
       ]
@@ -805,6 +1117,14 @@
             "Vander": 2,
             "Vi": 1,
             "Heimerdinger": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 5,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 6,
+            "Loyalty": 8
           }
         },
         {
@@ -815,6 +1135,14 @@
             "Sevika": 2,
             "Jinx": 2,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 4,
+            "Charisma": 4,
+            "Technology": 2,
+            "Ambition": 5,
+            "Loyalty": 3
           }
         },
         {
@@ -825,6 +1153,14 @@
             "Heimerdinger": 2,
             "Caitlyn": 1,
             "Mel": 1
+          },
+          "attributes": {
+            "Intelligence": 8,
+            "Strength": 5,
+            "Charisma": 6,
+            "Technology": 4,
+            "Ambition": 7,
+            "Loyalty": 6
           }
         },
         {
@@ -835,6 +1171,14 @@
             "Sevika": 2,
             "Silco": 2,
             "Ambessa": 1
+          },
+          "attributes": {
+            "Intelligence": 7,
+            "Strength": 4,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 8,
+            "Loyalty": 4
           }
         },
         {
@@ -846,6 +1190,14 @@
             "Caitlyn": 2,
             "Vi": 1,
             "Ekko": 1
+          },
+          "attributes": {
+            "Intelligence": 6,
+            "Strength": 7,
+            "Charisma": 6,
+            "Technology": 3,
+            "Ambition": 7,
+            "Loyalty": 7
           }
         }
       ]

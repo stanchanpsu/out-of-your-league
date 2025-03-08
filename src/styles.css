@@ -322,3 +322,40 @@ h1 {
     font-size: 40px;
     color: #0077b5;
 }
+
+.share-btn {
+    background: linear-gradient(45deg, #c79e57, #deb974);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1em;
+    color: #1a1a2e;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 1rem auto;
+    font-family: 'Cinzel', serif;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(199, 158, 87, 0.3);
+}
+
+.share-btn i {
+    font-size: 1.2em;
+}
+
+.chart-toggles label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.chart-toggles input[type="checkbox"] {
+    margin: 0;
+}
