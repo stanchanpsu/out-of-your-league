@@ -75,6 +75,9 @@ function showQuestion(index) {
                                     <img src="${questionData.image}" alt="Question ${index + 1} Image" class="question-image">
                                 </div>` : ''}
     `;
+    
+    // Scroll to the top of the question container
+    questionContainer.scrollIntoView({ behavior: 'smooth' });
 }
 
 function selectOption(questionIndex, answerIndex) {
@@ -86,12 +89,13 @@ function selectOption(questionIndex, answerIndex) {
         characterScores[character] += weight;
     });
 
-    // Add attribute tracking
+    // Add attribute tracking with scaling factor
     Object.entries(answer.attributes).forEach(([attr, value]) => {
         if (!userAttributes[attr]) {
             userAttributes[attr] = 0;
         }
         userAttributes[attr] += value;
+        userAttributes[attr] = Math.min(userAttributes[attr] * 1.05, 100); // Apply scaling factor and cap at 100
     });
 
     if (questionIndex < quizData.quiz.length - 1) {
@@ -136,7 +140,7 @@ function showResults() {
         `).join('');
 
     const getAttributeEmojis = (value, attribute) => {
-        const emojiCount = Math.round(value / 20); // Convert 0-100 scale to 0-5 emojis
+        const emojiCount = Math.floor(value / 20); // Convert 0-100 scale to 0-5 emojis
         const emojiMap = {
             'Intelligence': '🧠',
             'Strength': '💪',
