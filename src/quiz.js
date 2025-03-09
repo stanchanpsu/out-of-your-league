@@ -76,8 +76,8 @@ function showQuestion(index) {
                                 </div>` : ''}
     `;
     
-    // Scroll to the top of the question container
-    questionContainer.scrollIntoView({ behavior: 'smooth' });
+    // Scroll to the top of the entire quiz container instead of question container
+    document.querySelector('.quiz-container').scrollIntoView({ behavior: 'smooth' });
 }
 
 function selectOption(questionIndex, answerIndex) {
