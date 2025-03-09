@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X4JHS5HHZ1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-X4JHS5HHZ1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Out of Your League</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="quiz-container">
-        <div id="welcome-screen">
-            <h1>Out of Your League</h1>
-            <p class="tagline">Mysteries lurk in the shadows—dare you uncover who you truly are?</p>
-            <button class="start-btn" onclick="startQuiz()">Begin the Descent</button>
-        </div>
-        <div id="question-container" class="question-container" style="display: none;"></div>
+      <div id="welcome-screen">
+        <h1>Out of Your League</h1>
+        <p class="tagline">
+          Mysteries lurk in the shadows—dare you uncover who you truly are?
+        </p>
+        <button class="start-btn" onclick="startQuiz()">
+          Begin the Descent
+        </button>
+      </div>
+      <div
+        id="question-container"
+        class="question-container"
+        style="display: none"
+      ></div>
     </div>
     <script src="quiz.js"></script>
-    <img src="linkedin-icon.png" alt="LinkedIn Icon" style="display:none;">
-</body>
+    <img src="linkedin-icon.png" alt="LinkedIn Icon" style="display: none" />
+  </body>
 </html>
